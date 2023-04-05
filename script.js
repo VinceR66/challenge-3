@@ -1,4 +1,5 @@
 // Assignment Code
+// Initiated variables
 
 var upper;
 var lower;
@@ -6,15 +7,20 @@ var special;
 var number;
 var length;
 
+// Initiated Arrays of possible password character options
+
 let upperChar = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z"];
 let lowerChar = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z"];
 let specialChar = ["!", "@", "#", "$", "%", "^", "&", "*", "?", ">", "<", "(", ")", "{", "}", "[", "]"];
 let numberChar = ["1", "2", "3", "4", "5", "6", "7", "8", "9", "0"];
 
+// Function to confirm user character choices which determine character options
+
 function generatePassword() {
 
-
   var length = parseInt(prompt('How many characters do you want in your password, enter a number between 8 and 128'));
+
+  // used while to confirm password length is in correct range
 
   while (length < 8 || length > 128) {
     alert('Please enter a number between 8 and 128');
@@ -101,17 +107,14 @@ function generatePassword() {
 
 
 
-  console.log(userChoice);
+  // created empty string for random number generator to write password
 
   var result = ""
 
   for (var i = 0; i < length; i += 1) {
     result += userChoice[Math.floor(Math.random() * userChoice.length)];
   }
-
-
   return result
-
 }
 
 
