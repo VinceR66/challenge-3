@@ -9,8 +9,10 @@ Password Generator was developed using JavaScript.
 <br/><br/>
 
 # Links
-### GitHub Repository 
-### Deployment   
+### Repository:
+ https://github.com/VinceR66/challenge-3 
+### Deployment:
+ https://vincer66.github.io/Challenge-3/   
 <br/><br/>
 
 # Screenshots
