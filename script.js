@@ -26,7 +26,6 @@ function generatePassword() {
     alert('Please enter a number between 8 and 128');
     length = parseInt(prompt('How many characters do you want in your password, enter a number between 8 and 128'));
   }
-  console.log(length);
 
   var upper = confirm('Do you want to use UPPERCASE lettters?');
   console.log(upper);
