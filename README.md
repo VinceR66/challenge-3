@@ -10,9 +10,9 @@ Password Generator was developed using JavaScript.
 
 # Links
 ### Repository:
- https://github.com/VinceR66/challenge-3 
+ github.com/VinceR66/challenge-3 
 ### Deployment:
- https://vincer66.github.io/Challenge-3/   
+vincer66.github.io/challenge-3/   
 <br/><br/>
 
 # Screenshots
